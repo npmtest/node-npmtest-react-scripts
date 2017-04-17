@@ -9,9 +9,15 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-scripts/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-scripts/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-scripts/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-scripts/tree/gh-pages/build)|
 
+- [https://npmtest.github.io/node-npmtest-react-scripts/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-scripts/build/coverage.html/index.html)
+
 [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-scripts/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-react-scripts/build/coverage.html/index.html)
 
+- [https://npmtest.github.io/node-npmtest-react-scripts/build/test-report.html](https://npmtest.github.io/node-npmtest-react-scripts/build/test-report.html)
+
 [![test-report](https://npmtest.github.io/node-npmtest-react-scripts/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-scripts/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-react-scripts/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-scripts/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-react-scripts/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-scripts/build/apidoc.html)
 
