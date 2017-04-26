@@ -1,6 +1,6 @@
 # npmtest-react-scripts
 
-#### basic test coverage for  react-scripts (v0.9.5)  [![npm package](https://img.shields.io/npm/v/npmtest-react-scripts.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-scripts) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-scripts.svg)](https://travis-ci.org/npmtest/node-npmtest-react-scripts)
+#### basic test coverage for  [react-scripts (v0.9.5)](https://github.com/facebookincubator/create-react-app#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-scripts.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-scripts) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-scripts.svg)](https://travis-ci.org/npmtest/node-npmtest-react-scripts)
 
 #### Configuration and scripts for Create React App.
 
@@ -35,28 +35,11 @@
 ```json
 
 {
-    "name": "react-scripts",
-    "version": "0.9.5",
-    "description": "Configuration and scripts for Create React App.",
-    "repository": "facebookincubator/create-react-app",
-    "license": "BSD-3-Clause",
-    "engines": {
-        "node": ">=4"
+    "bin": {
+        "react-scripts": "./bin/react-scripts.js"
     },
     "bugs": {
         "url": "https://github.com/facebookincubator/create-react-app/issues"
-    },
-    "files": [
-        "babelrc",
-        "eslintrc",
-        "bin",
-        "config",
-        "scripts",
-        "template",
-        "utils"
-    ],
-    "bin": {
-        "react-scripts": "./bin/react-scripts.js"
     },
     "dependencies": {
         "autoprefixer": "6.7.2",
@@ -83,6 +66,7 @@
         "extract-text-webpack-plugin": "1.0.1",
         "file-loader": "0.10.0",
         "fs-extra": "0.30.0",
+        "fsevents": "1.0.17",
         "html-webpack-plugin": "2.24.0",
         "http-proxy-middleware": "0.17.3",
         "jest": "18.1.0",
@@ -98,13 +82,48 @@
         "webpack-manifest-plugin": "1.1.0",
         "whatwg-fetch": "2.0.2"
     },
+    "description": "Configuration and scripts for Create React App.",
     "devDependencies": {
         "react": "^15.3.0",
         "react-dom": "^15.3.0"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "e9f05c8427e27131662a9b9d7a9786d1ff16bb3f",
+        "tarball": "https://registry.npmjs.org/react-scripts/-/react-scripts-0.9.5.tgz"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "files": [
+        "babelrc",
+        "eslintrc",
+        "bin",
+        "config",
+        "scripts",
+        "template",
+        "utils"
+    ],
+    "homepage": "https://github.com/facebookincubator/create-react-app#readme",
+    "license": "BSD-3-Clause",
+    "maintainers": [
+        {
+            "name": "gaearon"
+        },
+        {
+            "name": "timer"
+        }
+    ],
+    "name": "react-scripts",
     "optionalDependencies": {
         "fsevents": "1.0.17"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/facebookincubator/create-react-app.git"
+    },
+    "scripts": {},
+    "version": "0.9.5"
 }
 ```
 
